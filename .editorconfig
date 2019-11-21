@@ -1,0 +1,19 @@
+root = true
+
+### All files
+[*]
+# Force charset utf-8
+charset = utf-8
+# Force Unix-style newlines with a newline ending every file & trim trailing whitespace
+end_of_line = lf
+# Indentation
+indent_style = space
+indent_size = 4
+
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.js]
+charset = utf-8
+indent_style = space
+indent_size = 4
