@@ -3,5 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "angleshe <478647464@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-changed": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
+  }
 }
